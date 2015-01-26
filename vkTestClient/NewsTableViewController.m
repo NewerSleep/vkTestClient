@@ -202,7 +202,7 @@
         [activityIndicator setColor:[UIColor colorWithRed:(CGFloat)91.f/255.f green:(CGFloat)125.f/255.f blue:(CGFloat)160.f/255.f alpha:1.f]];
         [activityIndicator hidesWhenStopped];
         
-        [self.view addSubview:activityIndicator];
+        [self.view.superview addSubview:activityIndicator];
     }
     
     [activityIndicator startAnimating];

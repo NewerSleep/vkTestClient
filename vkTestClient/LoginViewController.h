@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "VKManager.h"
-#import <VKSdk.h>
 
-@interface LoginViewController : UIViewController <VKSdkDelegate>
+@interface LoginViewController : UIViewController 
 
 - (IBAction)logInBtnAction:(id)sender;
 
